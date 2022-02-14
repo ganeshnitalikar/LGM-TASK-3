@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer> </script>
+    <title>Student Profile System</title>
+</head>
+<body>
+    <h1>Student Profile System</h1>
+    <div class="container center">
+        <table>
+            <tr>
+                <td>
+                    <form class="input-part" autocomplete="off" onsubmit="onFormSubmit()">
+                        <div>
+                            <label for="studentName">Student Name</label>
+                            <input type="text" placeholder="Enter Student Name" name="studentName" id="studentName">
+                        </div>
+                        <div>
+                            <label for="collegeName">College Name</label>
+                            <input placeholder="Enter College Name" type="text" name="collegeName" id="collegeName">
+                        </div>
+                        <div>
+                            <label for="Branch">Branch</label>
+                            <input placeholder="Enter The Branch" type="text" name="Branch" id="Branch">
+                        </div>
+                        <div>
+                            <label for="PRN">PRN</label>
+                            <input placeholder="Enter PRN Number" type="text" name="PRN" id="PRN">
+                        </div>
+
+                        <div class="form-btns">
+                            <input type="submit" value="Submit">
+                            <input type="reset" value="Reset">
+                        </div>
+                    </form>
+
+                <td>
+                    <table class="list" id="storeList">
+                        <thead>
+                            <tr>
+                                <th>Student Name</th>
+                                <th>College Name</th>
+                                <th>Branch</th>
+                                <th>PRN number</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                        </tbody>
+                    </table>
+                </td>
+                </td>
+            </tr>
+        </table>
+    </div>
+</body>
+</html>
